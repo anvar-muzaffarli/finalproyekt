@@ -1,10 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Particles from 'react-particles-js'
+//komponentler olan hisse
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
 import Services from './components/Services'
-import Particles from 'react-particles-js'
+import Experience from './components/Experience';
+
 
 function App() {
   return (
@@ -26,6 +29,7 @@ function App() {
       <Header />
       <About />
       <Services />
+      <Experience />
     </>
   );
 }
