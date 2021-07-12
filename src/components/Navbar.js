@@ -32,17 +32,12 @@ function Navbar() {
               <a className="nav-link" href="#">Təcrübə</a>
             </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="#">Portfolio</a>
-            </li>
+           
 
             <li className="nav-item">
               <a className="nav-link" href="#">Bizimlə əlaqə</a>
             </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="#">Link</a>
-            </li>
         </ul>
 
         </div>
