@@ -15,6 +15,7 @@
     /* xidmetler componenti ucun reng*/
     --primary-light-grey: #f4f4f4;
     --primary-black: #000000;
+    --footer-rengi:#f39c12;
 }
 
 nav {
@@ -410,3 +411,25 @@ textarea.form-control {
   }
 }
 
+/* Footer ve yehuuu proyektimiz bitdi */
+
+.footer {
+  background: var(--footer-rengi);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
